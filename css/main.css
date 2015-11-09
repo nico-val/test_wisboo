@@ -21,7 +21,7 @@ body header{
 .divider {
   height: 260px;
   width: 3px;
-  background: linear-gradient(#FFF,#F5C85F, #FFF); /*radial-gradient(ellipse at center, rgba(245,200,95,1) 0%,  rgba(245,200,95,1) 25%,rgba(255,255,255,1) 75%);*/
+  background: linear-gradient(#FFF,#F5C85F, #FFF);
   display: inline-block;
 }
 
