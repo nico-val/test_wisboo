@@ -1,0 +1,101 @@
+@media (min-width: 1024px) {
+  .container{
+    max-width: 1024px;
+  }
+}
+
+body {
+  font-family: "Myriad Pro";
+}
+
+body header{
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-top-color: #F5C85F;
+  border-top-style: solid;
+  border-top-width: 8px;
+  padding: 30px;
+}
+
+.divider {
+  height: 260px;
+  width: 3px;
+  background: linear-gradient(#FFF,#F5C85F, #FFF); /*radial-gradient(ellipse at center, rgba(245,200,95,1) 0%,  rgba(245,200,95,1) 25%,rgba(255,255,255,1) 75%);*/
+  display: inline-block;
+}
+
+.vcenter {
+  display: inline-block;
+  *display: inline; /*IE7 fix*/
+  zoom: 1;
+  padding: 5px;
+  vertical-align: middle;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.zigzag-top {
+  background: linear-gradient(-118deg, white 7px, transparent 0) 0 5px, linear-gradient(120deg, white 8px, transparent 0) 0 5px;
+  background-color: #333538;
+  background-position: left top;
+  background-repeat: repeat-x;
+  background-size: 15px 25px;
+}
+
+.description-block{
+  background-color: #eeeeee;
+}
+
+.description{
+  text-align: center;
+  margin: 70px 30px;
+}
+
+.description h1 {
+  color: #111111;
+  font-size: 18px;
+}
+
+.description p {
+  color: #999999;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #F5C85F;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+footer input{
+  display: block;
+  margin-left: auto;
+  border-style: none;
+  border-radius: 10px;
+  color: #999999;
+  padding: 5px;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+footer button{
+  background-color: #F5C85F;
+  border-style: solid;
+  border-color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 1px;
+  border-top-left-radius: 5px 15px;
+  border-bottom-left-radius: 5px 15px;
+  border-top-right-radius: 5px 15px;
+  border-bottom-right-radius: 5px 15px;
+}
+
